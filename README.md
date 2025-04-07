@@ -1,6 +1,6 @@
 # 🎨 Challenge 0 - Simple NFT Example (Speedrun Ethereum)
 
-This project was developed as part of the **[Dev3pack - Discovery Basecamp]** program, following the Speedrun Ethereum Challenge 0. It consists of deploying an ERC721 (NFT) smart contract to the Sepolia network, interacting with it through a frontend app, and publishing it with a user-friendly interface on Vercel.
+This project was developed as part of the **[Discovery Basecamp](https://speedrunethereum.com/)** program, following the Speedrun Ethereum Challenge 0. It consists of deploying an ERC721 (NFT) smart contract to the Sepolia network, interacting with it through a frontend app, and publishing it with a user-friendly interface on Vercel.
 
 ---
 
@@ -18,12 +18,22 @@ This project was developed as part of the **[Dev3pack - Discovery Basecamp]** pr
 
 ## ✅ Steps Completed
 
-### 1. Clone the base project
+### 1. Create the base project
 ```bash
-git clone https://github.com/austintgriffith/scaffold-eth-2.git simple-nft
-cd simple-nft
-git checkout challenge-0
-yarn install
+npx create-eth@0.1.0 -e challenge-0-simple-nft challenge-0-simple-nft
+cd challenge-0-simple-nft
+```
+Start local chain in a separate terminal:
+```bash
+yarn chain
+```
+Deploy contracts locally:
+```bash
+yarn deploy
+```
+Start the frontend:
+```bash
+yarn start
 ```
 
 ### 2. Generate a local development wallet
@@ -35,7 +45,7 @@ This creates an address to be used for contract deployment via Hardhat.
 ### 3. Fund the wallet
 - SepoliaETH was obtained from a faucet and sent to the generated deployer address.
 
-### 4. Deploy the NFT contract `YourCollectible`
+### 4. Deploy the NFT contract `YourCollectible` to Sepolia
 ```bash
 yarn deploy --network sepolia
 ```
@@ -103,5 +113,7 @@ ETHERSCAN_API_KEY=...
 ## 🧙‍♀️ Created by
 
 Larissa ✨  
-[larissas-projects.vercel.app](https://nft-project-k34dchmo1-larissas-projects-6fce7247.vercel.app/)
+[larissas-projects.vercel.app](https://project-k34dchmo1-larissas-projects-6fce7247.vercel.app)
+
+
 
