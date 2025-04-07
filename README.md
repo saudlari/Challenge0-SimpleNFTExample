@@ -79,7 +79,7 @@ Frontend was deployed using:
 yarn vercel
 ```
 
-🔗 [Live App on Vercel](https://project-k34dchmo1-larissas-projects-6fce7247.vercel.app)
+🔗 [Live App on Vercel](https://nft-project-saudlari-larissas-projects-6fce7247.vercel.app/)
 
 ---
 
@@ -94,7 +94,7 @@ NEXT_PUBLIC_ALCHEMY_API_KEY=...
 ```
 
 ### Etherscan
-- API key obtained from [Etherscan API](https://etherscan.io/myapikey) and stored in:
+- API key obtained from [Etherscan API](https://etherscan.io/) and stored in:
 ```env
 ETHERSCAN_API_KEY=...
 ```
@@ -109,11 +109,3 @@ ETHERSCAN_API_KEY=...
 - ✅ Challenge 0 submitted successfully
 
 ---
-
-## 🧙‍♀️ Created by
-
-Larissa ✨  
-[larissas-projects.vercel.app](https://project-k34dchmo1-larissas-projects-6fce7247.vercel.app)
-
-
-
