@@ -1,6 +1,6 @@
 # 🎨 Challenge 0 - Simple NFT Example (Speedrun Ethereum)
 
-This project was developed as part of the **[Discovery Basecamp](https://frost-foe-274.notion.site/Discovery-Basecamp-1b7b6900a299805fb6fadf7f82f452f1)** program, following the Speedrun Ethereum Challenge 0. It consists of deploying an ERC721 (NFT) smart contract to the Sepolia network, interacting with it through a frontend app, and publishing it with a user-friendly interface on Vercel.
+This project was developed as part of the **[Dev3pack - Discovery Basecamp]** program, following the Speedrun Ethereum Challenge 0. It consists of deploying an ERC721 (NFT) smart contract to the Sepolia network, interacting with it through a frontend app, and publishing it with a user-friendly interface on Vercel.
 
 ---
 
@@ -103,5 +103,5 @@ ETHERSCAN_API_KEY=...
 ## 🧙‍♀️ Created by
 
 Larissa ✨  
-[larissas-projects.vercel.app](https://project-k34dchmo1-larissas-projects-6fce7247.vercel.app)
+[larissas-projects.vercel.app](https://nft-project-k34dchmo1-larissas-projects-6fce7247.vercel.app/)
 
